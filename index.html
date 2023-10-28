@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VsCode-Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header-container">
+        <div class="main-inner-header">
+            <div class="head-left">
+                <img src="vscodelogo.png" alt="">
+                <a href="">Visual Studio Code</a>
+            </div>
+            <ul class="head-middle">
+                <li><a href="">Docs</a></li>
+                <li><a href="">Updates</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">API</a></li>
+                <li><a href="">Extensions</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Learn</a></li>
+            </ul>
+            <div class="head-right">
+                <div class="head-right-searchbar">
+                    <i class="ri-search-line" id="searchbar-logo"></i>
+                    <input type="text" value="">
+                </div>
+                <div class="head-right-download">
+                    <i class="ri-download-line" id="download-logo"></i>
+                    <a href="">Download</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="navbar-container">
+        <p><a href="">Version 1.82</a>is now available! Read about the new features and fixes from August.</p>
+    </section>
+    <section class="home-section-container">
+        <div class="home-section">
+            <div class="home-section-left">
+                <div class="home-left-1">Code editing.</div>
+                <div class="home-left-2">Redefined.</div>
+                <div class="home-left-3">Free. Built on open source. Runs everywhere.</div>
+                <div class="home-left-4">
+                    <div class="home-left-4-child1">
+                        <div class="left-4-child1-sc1">
+                            <i class="ri-download-line" id="download-logo"></i>
+                            <div>.deb</div>
+                        </div>
+                        <div class="left-4-child1-sc2">Debian, Ubuntu...</div>
+                    </div>
+                    <div class="home-left-4-child1">
+                        <div class="left-4-child1-sc1">
+                            <i class="ri-download-line" id="download-logo"></i>
+                            <div>.rpm</div>
+                        </div>
+                        <div class="left-4-child1-sc2">Red Hat, Fedora....</div>
+                    </div>
+                    <div class="home-left-4-child2">
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                </div>
+                <div class="home-left-5">
+                    <a href="">Web, Insiders Edition <span>or</span> other Platforms</a>
+                </div>
+                <div class="home-left-6">By using VS Code, you agree to its</div>
+                <div class="home-left-7">license and privacy statement.</div>
+            </div>
+            <div class="home-section-right"><img src="homeimage1.png" alt=""></div>
+        </div>
+    </section>
+    <section class="home2-section-container">
+        <div class="home2-section1">
+            <a href="" class="home2-section1-features">
+                <i class="ri-lightbulb-line"></i>
+                <p>IntelliSense</p>
+            </a>
+            <a href="" class="home2-section1-features">
+                <i class="ri-bug-line"></i>
+                <p>Run and Debug</p>
+            </a>
+            <a href="" class="home2-section1-features">
+                <i class="ri-git-branch-line"></i>
+                <p>Built-in Git</p>
+            </a>
+            <a href="" class="home2-section1-features">
+                <i class="ri-box-3-line"></i>
+                <p>Extensions</p>
+            </a>
+        </div>
+    </section>
+    <section class="home3-section-container">
+        <div class="home3-section">
+            <div class="home3-section-feedback">
+                <div><img src="feedback1.jpg" alt=""></div>
+                <div class="feedback-right">
+                    <div class="feedback-right-upper">
+                        <div>Una Kravets <span>@Una</span></div>
+                        <i class="ri-twitter-fill" class="twitter-logo"></i>
+                    </div>
+                    <div class="feedback-right-lower">VS @code does so many things right. I’m constantly impressed by
+                        the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps
+                        getting better ❤️</div>
+                </div>
+            </div>
+            <div class="home3-section-feedback">
+                <div><img src="feedback2.jpg" alt=""></div>
+                <div class="feedback-right">
+                    <div class="feedback-right-upper">
+                        <div>Jonathan Dunlap<span>@Jadbox</span></div>
+                        <i class="ri-twitter-fill" class="twitter-logo"></i>
+                    </div>
+                    <div class="feedback-right-lower">VS Code will have deep remote development. You can connect to a
+                        container running a different OS and use any VS Code plugins, linting, debugging for that
+                        environment. 🔥🔥🔥</div>
+                </div>
+            </div>
+            <div class="home3-section-feedback">
+                <div><img src="feedback3.jpg" alt=""></div>
+                <div class="feedback-right">
+                    <div class="feedback-right-upper">
+                        <div>Pavithra Kodmad<span>@PkodMad</span></div>
+                        <i class="ri-twitter-fill" class="twitter-logo"></i>
+                    </div>
+                    <div class="feedback-right-lower">VS Code is my most used and favorite editor. I love being able to
+                        customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home4-section-container">
+        <div class="home4-section">
+            <div class="home4-section-left">
+                <img src="codebulbimage.svg" alt="">
+            </div>
+            <div class="home4-section-right">
+                <div class="home4-section-right-upper">Meet IntelliSense.</div>
+                <div class="home4-section-right-lower">Go beyond syntax highlighting and autocomplete with IntelliSense,
+                    which provides smart completions
+                    based on variable types, function definitions, and imported modules.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home5-section-container">
+        <div class="home5-section">
+            <div class="home4-section-right">
+                <div class="home4-section-right-upper">Print statement debugging is a thing of the past.</div>
+                <div class="home4-section-right-lower">Debug code right from the editor. Launch or attach to your
+                    running apps and debug with break points, call stacks, and an interactive console.
+                </div>
+            </div>
+            <div class="home4-section-left">
+                <img src="codedebugimage.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="home4-section-container">
+        <div class="home4-section">
+            <div class="home4-section-left">
+                <img src="codegitimage.svg" alt="">
+            </div>
+            <div class="home4-section-right">
+                <div class="home4-section-right-upper">Git commands built-in.</div>
+                <div class="home4-section-right-lower">Working with Git and other SCM providers has never been easier.
+                    Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM
+                    service.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home5-section-container">
+        <div class="home5-section">
+            <div class="home4-section-right">
+                <div class="home4-section-right-upper">Extensible and customizable.</div>
+                <div class="home4-section-right-lower">Want even more features? Install extensions to add new languages,
+                    themes, debuggers, and to connect to additional services. Extensions run in separate processes,
+                    ensuring they won't slow down your editor. Learn more about extensions.
+                </div>
+            </div>
+            <div class="codeextension-image-div">
+                <img src="codeextensionimage.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="home4-section-container">
+        <div class="home4-section">
+            <div class="home4-section-left">
+                <img src="codeazureimage.svg" alt="">
+            </div>
+            <div class="home4-section-right">
+                <div class="home4-section-right-upper">Deploy with confidence and ease</div>
+                <div class="home4-section-right-lower">With Microsoft Azure you can deploy and host your React, Angular,
+                    Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale
+                    with serverless computing, all with ease, all from within VS Code.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home6-section-container">
+        <div class="home6-section">
+            <div class="home6-section-upper">VS Code for</div>
+            <div class="home6-section-middle">
+                <div class="home6-section-middle-top">
+                    <div class="home6-section-middle-top-card">
+                        <div>
+                            <img src="javascriptimage.svg" alt="">
+                            <div>JavaScript</div>
+                        </div>
+                        <div>
+                            <img src="pythonimage.svg" alt="">
+                            <div>Python</div>
+                        </div>
+                    </div>
+                    <div class="home6-section-middle-top-card">
+                        <div>
+                            <img src="javaimage.svg" alt="">
+                            <div>Java</div>
+                        </div>
+                        <div>
+                            <img src="markdownimage.svg" alt="">
+                            <div>MarkDown</div>
+                        </div>
+                    </div>
+                    <div class="home6-section-middle-top-card">
+                        <div>
+                            <img src="typescriptimage.svg" alt="">
+                            <div>TypeSrcipt</div>
+                        </div>
+                        <div>
+                            <img src="cppimage.svg" alt="">
+                            <div>C/C++</div>
+                        </div>
+                    </div>
+                    <div class="home6-section-middle-top-card">
+                        <div>
+                            <img src="jsonimage.svg" alt="">
+                            <div>JSON</div>
+                        </div>
+                        <div>
+                            <img src="powershellimage.svg" alt="">
+                            <div>Powershell</div>
+                        </div>
+                    </div>
+                    <div class="home6-section-middle-top-card">
+                        <div>
+                            <img src="htmlimage.svg" alt="">
+                            <div>HTML/CSS</div>
+                        </div>
+                        <div>
+                            <img src="csharpimage.svg" alt="">
+                            <div>C#</div>
+                        </div>
+                    </div>
+                    <div class="home6-section-middle-top-card">
+                        <div>
+                            <img src="phpimage.svg" alt="">
+                            <div>PHP</div>
+                        </div>
+                        <div>
+                            <img src="yamlimage.svg" alt="">
+                            <div>YAML</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="home6-section-middle-bottom">and many more languages on the Marketplace...</a>
+            </div>
+            <a class="home6-section-lower" href="">
+                <div>Get Started Now</div>
+            </a>
+        </div>
+    </section>
+    <section class="download-type-section-container">
+        <div class="download-type-section">
+            <div class="download-type-card">
+                <img src="windows-logo.png" alt="" class="download-type-card-top">
+                <a href="" class="download-type-card-parentmiddle1">
+                    <div class="download-type-card-middle1">
+                        <div class="window-Download-upper">
+                            <i class="ri-download-line" id="download-logo"></i>
+                            <div>Windows</div>
+                        </div>
+                        <div class="window-Download-lower">Windows 10,11</div>
+                    </div>
+                </a>
+                <div class="download-type-card-buttom">
+                    <div class="download-type-card-buttom-child">
+                        <p>User Installer</p>
+                        <div>X64</div>
+                        <div>X86</div>
+                        <div>Arm64</div>
+                    </div>
+                    <div class="download-type-card-buttom-child">
+                        <p>System Installer</p>
+                        <div>X64</div>
+                        <div>X86</div>
+                        <div>Arm64</div>
+                    </div>
+                    <div class="download-type-card-buttom-child">
+                        <p>.zip</p>
+                        <div>X64</div>
+                        <div>X86</div>
+                        <div>Arm64</div>
+                    </div>
+                    <div class="download-type-card-buttom-child">
+                        <p>CLI</p>
+                        <div>X64</div>
+                        <div>X86</div>
+                        <div>Arm64</div>
+                    </div>
+                </div>
+            </div>
+            <div class="download-type-card2">
+                <img src="linux-logo.png" alt="" class="download-type-card-top">
+                <div class="download-type-card-middle2">
+                    <a href="">
+                        <div class="download-type-card-middle2-child">
+                            <div class="window-Download-upper">
+                                <i class="ri-download-line" id="download-logo"></i>
+                                <div>deb.</div>
+                            </div>
+                            <div class="window-Download-lower">Debian, Ubuntu</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="download-type-card-middle2-child">
+                            <div class="window-Download-upper">
+                                <i class="ri-download-line" id="download-logo"></i>
+                                <div>rpm.</div>
+                            </div>
+                            <div class="window-Download-lower">Red Hat,Fedora,Suse</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="download-type-card-buttom">
+                    <div class="download-type-card-buttom-child">
+                        <p>.deb</p>
+                        <div>X64</div>
+                        <div>Arm32</div>
+                        <div>Arm64</div>
+                    </div>
+                    <div class="download-type-card-buttom-child">
+                        <p>.rpm</p>
+                        <div>X64</div>
+                        <div>Arm32</div>
+                        <div>Arm64</div>
+                    </div>
+                    <div class="download-type-card-buttom-child">
+                        <p>.tar.gz</p>
+                        <div>X64</div>
+                        <div>Arm32</div>
+                        <div>Arm64</div>
+                    </div>
+                    <div class="download-type-card-buttom-child">
+                        <p>CLI</p>
+                        <div>X64</div>
+                        <div>Arm32</div>
+                        <div>Arm64</div>
+                    </div>
+                </div>
+            </div>
+            <div class="download-type-card">
+                <img src="apple-logo.svg" alt="" class="download-type-card-top">
+                <a href="" class="download-type-card-parentmiddle1">
+                    <div class="download-type-card-middle1">
+                        <div class="window-Download-upper">
+                            <i class="ri-download-line" id="download-logo"></i>
+                            <div>Mac</div>
+                        </div>
+                        <div class="window-Download-lower">MacOs10.11+</div>
+                    </div>
+                </a>
+                <div class="download-type-card-buttom">
+                    <div class="download-type-card-buttom-child">
+                        <p>.zip</p>
+                        <div>Intel Chip</div>
+                        <div>Apple Chip</div>
+                        <div>Universal</div>
+                    </div>
+                    <div class="download-type-card-buttom-child">
+                        <p>CLI</p>
+                        <div>Intel Chip</div>
+                        <div>Apple Chip</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <subfooter class="subfooter-section-container">
+        <div class="subfooter-section">
+            <div class="subfooter-section-upper">
+                <div class="subfooter-section-upper-child">
+                    <div class="subfooter-upper-child-upper">Want new features sooner?</div>
+                    <div class="subfooter-upper-child-lower">Get the <a href="">Insiders build</a> instead.</div>
+                </div>
+                <div class="subfooter-section-upper-child">
+                    <div class="subfooter-upper-child-upper">Use <a href="">vscode.dev</a> for quick edits online!</div>
+                    <div class="subfooter-upper-child-lower">GitHub, Azure Repos, and local files.</div>
+                </div>
+            </div>
+            <div class="subfooter-section-lower">
+                <p class="subfooter-section-lower-1">License and Privacy Terms
+                </p>
+                <p class="subfooter-section-lower-2">By downloading and using Visual Studio Code, you agree to the <a href=""> license terms </a> and <a href="">privacy statement</a>. VS
+                    Code automatically sends telemetry data and crash dumps to help us improve the product. If you would
+                    prefer not to have this data sent please go see <a href="">How to Disable Crash Reporting</a> to learn how to
+                    disable it. Third party</p>
+                <p class="subfooter-section-lower-2">licenses for the CLI can be <a href="">found here</a>.</p>
+            </div>
+        </div>
+    </subfooter>
+    <footer class="footer-section-container">
+        <div class="footer-section">
+            <div class="footer-section-left">
+                <p>Hello from Seattle.</p>
+                <p> Follow @code</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="footer-section-right">
+               <ul>
+                <li>Support</li>
+                <li>Privacy</li>
+                <li>Terms of Use</li>
+                <li>License</li>
+               </ul>
+                <div class="footer-section-right-microsoft-section">
+                    <div class="footer-section-right-microsoft-upper">
+                        <i class="ri-microsoft-fill"></i>
+                        <p>Microsoft</p>
+                    </div>
+                    <div class="footer-section-right-microsoft-lower">© 2023 Microsoft</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
